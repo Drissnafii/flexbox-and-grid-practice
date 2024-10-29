@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+
+}
+body{
+    background-color: rgb(170, 122, 214);
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(170, 122, 214);
+    align-items: center;
+    border-radius: 25px 0 0 0;
+}
+button{
+    margin: 8px;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: #7FFFD4;
+}
+
+.nav-div{
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    margin: 8px;
+}
+
+.nav-div:hover{
+    color: aliceblue;
+}
+
+main{
+    height: 100vh;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px 0 0 0;
+}
+
+.Titre{
+    font-family:Cambria, Cochin, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: xx-large;
+}
+.dajaja:hover{
+    color: #7FFFD4;
+}
+
+.container{
+    height: calc(90vh);
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px 0 0 0 ;
+    flex-wrap: wrap;
+
+}
+#a{
+    border-radius: 25px;
+    background-color: yellow;
+    margin: 10px;
+    height: 32vh;
+    width: 32vh;
+}
+.img1{
+    height: 30vh;
+    width: 32vh;
+    border-radius: 25px;
+}
+.img1:hover{
+    transform: translate(12px, 18px);
+}
+#b{
+    border-radius: 25px;
+    background-color: yellow;
+    margin: 10px;
+    height: 32vh;
+    width: 32vh;
+}
+.img2{
+    height: 30vh;
+    width: 32vh;
+    border-radius: 25px;
+}
+.img2:hover{
+    transform: translate(12px, 18px);
+}
+#c{
+    border-radius: 25px;
+    background-color: yellow;
+    margin: 10px;
+    height: 32vh;
+    width: 32vh;
+}
+.img3{
+    height: 30vh;
+    width: 32vh;
+    border-radius: 25px;
+}
+.img3:hover{
+    transform: translate(12px, 18px);
+}
+
+.container2{
+    height: 50vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 0 0 0 ;
+
+}
+#d{
+    border-radius: 25px;
+    background-color: yellow;
+    margin: 10px;
+    height: 32vh;
+    width: 32vh;
+}
+#e{
+    border-radius: 25px;
+    background-color: yellow;
+    margin: 10px;
+    height: 32vh;
+    width: 32vh;
+}
+
+
+footer{
+    display: flex;
+    background-color: rgb(161, 117, 203);
+    text-align: center;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
